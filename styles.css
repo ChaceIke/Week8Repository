@@ -1,0 +1,73 @@
+/* This selects the 'Important-Form' id tag in the contact page. It centers the form, extends the padding and changes the background color to gray */
+#Important-Form {
+    width: 100%;
+    padding: 13px 21px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: gray;
+    text-align: center;
+}
+
+/* This selects the 'Guy-Calling' id tag in the contacts page and gives it a padding and background color */
+#Guy-Calling {
+    padding: 30px;
+    background-color: black;
+}
+
+/* This selects the class that is in every page and centers the links that take you to each page */
+.page-switching {
+    text-align: center;
+}
+
+/* This selects the heading on the home page */
+h1 {
+    text-align: center;
+    background-color: gray;
+    padding: 12px;
+}
+
+/* This targets all images and centers them on each page */
+img {
+    display: block;
+    margin: 0 auto;
+/* Float: right; Could also be used*/
+}
+
+/* This targets the home page class and sets the background color */
+.home-page {
+    background-color: aqua;
+}
+
+/* This targets the rankings page class and set the background color */
+.rankings-page {
+    background-color: blueviolet;
+}
+
+/* This targets the contact page class and set the background color */
+.contact-page {
+    background-color: rgb(24, 5, 39);
+}
+
+/* This selects the id tag for the image on my home page. I extend the padding and give it a background color */
+#home-page-ice-cream {
+    padding: 30px;
+    background-color: slateblue;
+}
+
+/* This targets the image on the rankings page */
+#rankings-page-ice-cream {
+    padding: 30px;
+    background-color: snow;
+}
+
+/* This centers the ordered list of ice cream companies */
+.ordered-list-ice-cream {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+/* This uses a normal html tag to target the table on the rankings page and give it a background */
+table {
+    background-color: cornsilk;
+    float: right;
+}
